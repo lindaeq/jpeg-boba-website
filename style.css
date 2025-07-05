@@ -10,9 +10,17 @@ p {
 
 h1 { 
 
-        font-family: "brush script mt", serif;
+        font-family: "candara", serif;
 }
 
+title {
+
+    #emphasis {
+            color: hotpink;
+            font-weight: 900; /* Extra bold */
+        }
+
+}
 /* Simple bounce animation */
 @keyframes bounce {
     0% { transform: translateY(0); }
