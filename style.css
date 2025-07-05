@@ -1,0 +1,27 @@
+body {
+        background-color: rgb(255, 198, 210);
+    }
+
+p {
+        font-family: "Garamond", serif;
+        font-size: 15px;
+
+    }
+
+h1 { 
+
+        font-family: "brush script mt", serif;
+}
+
+/* Simple bounce animation */
+@keyframes bounce {
+    0% { transform: translateY(0); }
+    30% { transform: translateY(-50px); }
+    50% { transform: translateY(0); }
+    70% { transform: translateY(-25px); }
+    100% { transform: translateY(0); }
+}
+
+.bounce {
+    animation: bounce 0.6s;
+}
